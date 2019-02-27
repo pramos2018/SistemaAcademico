@@ -4,7 +4,7 @@ global $DB_PREFIX;
 
 $selection = "remote";
 if ($selection=='remote') {
-	define('DATABASE', 'gener138_puc_database');
+	define('DATABASE', 'userxxx_puc_database');
 } else {
 	define('DATABASE', 'puc_database');
 }
@@ -14,7 +14,7 @@ function autenticate() {
 	@mysql_close();
 	$error = 'Could not connect!!!<br>';
 	if ($selection == 'remote') {
-		@mysql_connect('localhost', 'gener138_root','root1234') or die('Server (remote): '.$error);	
+		@mysql_connect('localhost', '********','*******') or die('Server (remote): '.$error);	
 	} else {
 		@mysql_connect('localhost', 'root','') or die('Server (local): '.$error);
 	}
