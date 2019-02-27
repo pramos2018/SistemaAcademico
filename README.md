@@ -1,7 +1,5 @@
 # SistemaAcademico
 Sistema de Gestão de Cursos Simplificado.
 
-Feito utilizando Apache Cordova.
-Trata-se da implementação da funcionalidade 'Autenticar Usuário'.
-Foi utilizado o modelo MVVM (Model View View Model).
+Feito utilizando Apache Cordova. Funcionalidade implementada: 'Autenticar Aluno' utilizando uma API Rest escrita em PHP.
 
